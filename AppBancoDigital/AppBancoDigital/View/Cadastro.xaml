@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBancoDigital.View.Cadastro">
+    <ContentPage.Content>
+        <StackLayout>
+            
+                <Frame CornerRadius="8"
+                   x:Name="frm_cadastro"
+                   BackgroundColor="#E1D8D6"
+                   
+                   HasShadow="False"
+                   VerticalOptions="CenterAndExpand" Margin="10,24,10,60">
+
+                <StackLayout>
+
+                    <Label Text="Cadastro do Correntista" 
+                           TextTransform="Uppercase"
+                           TextColor="#bb6f2c"
+                           FontSize="Title"                           
+                           HorizontalTextAlignment="Center" Margin="10,50,10,30"  />
+
+                    <Label Text="Nome:" TextColor="Black"/>
+                    <Entry x:Name="txt_name"
+                           TextColor="Black"
+                            />
+
+                    <Label Text="CPF:" TextColor="Black"/>
+                    <Entry x:Name="txt_cpf"
+                           TextColor="Black"
+                            />
+
+                    <Label Text="Data de nascimento:"  
+                                       FontAttributes="Bold"
+                                       TextColor="Black"
+                                       Margin="0,14,10,0"
+                                       />
+                    <DatePicker x:Name="dtpck_datanasc"
+                                            DateSelected="dtpck_datanasc_DateSelected"
+                                            Format="dd/MM/yyyy" />
+
+
+
+                    <Label Text="Defina sua senha:" TextColor="Black"   />
+                    <Entry x:Name="txt_senha"   TextColor="Black"    />
+
+                    <Label Text="Confirme sua senha:" TextColor="Black"   />
+                    <Entry x:Name="txt_senhaconfirm"   TextColor="Black"    />
+
+                    <Button Text="Cadastrar" 
+                            BackgroundColor="#c06d18" 
+                            Clicked="Button_Clicked" 
+                            TextColor="#E1D8D6" 
+                            Margin="10,30,20,10"/>
+                </StackLayout>
+            </Frame>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

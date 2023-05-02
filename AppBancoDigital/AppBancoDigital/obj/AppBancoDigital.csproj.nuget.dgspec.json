@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj",
         "projectName": "AppBancoDigital",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\AppBancoDigital\\AppBancoDigital\\AppBancoDigital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,6 +13,19 @@ namespace AppBancoDigital
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+
+            //logo.Source = ImageSource.FromResource("AppBancoDigital.NovaPasta1.logobanco.png");
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.Cadastro());
         }
     }
 }

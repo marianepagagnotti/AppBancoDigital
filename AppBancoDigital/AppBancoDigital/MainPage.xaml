@@ -3,22 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppBancoDigital.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout>
 
+            
+            <Label Text="BANCO DIGITAL" 
+                   FontSize="50"
+                   TextColor="#bb6f2c"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   Margin="0,90,0,0"/>
+
+            <Button Text="Entrar"  
+                    WidthRequest="300"
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    BackgroundColor="Transparent" 
+                    BorderColor="White"
+                    BorderWidth="3"
+                    TextColor="#bb6f2c"
+                    Clicked="Button_Clicked"    
+                    Margin="0,200,0,0"/>
+
+            <Button Text="Cadastrar" 
+                    BorderColor="White" 
+                    BorderWidth="3" 
+                    WidthRequest="300"
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    BackgroundColor="Transparent" 
+                    TextColor="#bb6f2c"
+                    Clicked="Button_Clicked_1"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

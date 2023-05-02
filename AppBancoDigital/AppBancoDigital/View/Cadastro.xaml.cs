@@ -15,6 +15,7 @@ namespace AppBancoDigital.View
         public Cadastro()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -25,6 +26,11 @@ namespace AppBancoDigital.View
         private void dtpck_datanasc_DateSelected(object sender, DateChangedEventArgs e)
         {
 
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
         }
     }
 }

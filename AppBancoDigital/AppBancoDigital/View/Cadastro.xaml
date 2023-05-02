@@ -7,17 +7,19 @@
             
                 <Frame CornerRadius="8"
                    x:Name="frm_cadastro"
-                   BackgroundColor="#E1D8D6"
+                   BackgroundColor="Transparent"
                    
                    HasShadow="False"
                    VerticalOptions="CenterAndExpand" Margin="10,24,10,60">
 
                 <StackLayout>
 
-                    <Label Text="Cadastro do Correntista" 
-                           TextTransform="Uppercase"
+                    <Label Text="CADASTRO DO CORRENTISTA" 
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           WidthRequest="300"
                            TextColor="#bb6f2c"
-                           FontSize="Title"                           
+                                                      
                            HorizontalTextAlignment="Center" Margin="10,50,10,30"  />
 
                     <Label Text="Nome:" TextColor="Black"/>
@@ -31,7 +33,6 @@
                             />
 
                     <Label Text="Data de nascimento:"  
-                                       FontAttributes="Bold"
                                        TextColor="Black"
                                        Margin="0,14,10,0"
                                        />
@@ -48,10 +49,24 @@
                     <Entry x:Name="txt_senhaconfirm"   TextColor="Black"    />
 
                     <Button Text="Cadastrar" 
-                            BackgroundColor="#c06d18" 
+                            TextColor="#bb6f2c"
+                            BackgroundColor="Transparent"
+                            FontAttributes="Bold"
+                            WidthRequest="300"
                             Clicked="Button_Clicked" 
-                            TextColor="#E1D8D6" 
-                            Margin="10,30,20,10"/>
+                            BorderColor="White"
+                            BorderWidth="3" 
+                            Margin="10,30,20,8"/>
+
+                    <Button Text="Voltar" 
+                            TextColor="#bb6f2c"
+                            BackgroundColor="Transparent"
+                            FontAttributes="Bold"
+                            WidthRequest="300"
+                            Clicked="Button_Clicked_1" 
+                            BorderColor="White"
+                            BorderWidth="3" 
+                            Margin="10,-10,20,10"/>
                 </StackLayout>
             </Frame>
            

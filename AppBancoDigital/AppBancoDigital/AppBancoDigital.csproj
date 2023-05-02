@@ -11,6 +11,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <None Remove="NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="NovaPasta1\logo %282%29.png" />
+    <None Remove="NovaPasta1\logo-removebg-preview.png" />
+    <None Remove="NovaPasta1\logo.PNG" />
+    <None Remove="NovaPasta1\logobanco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="NovaPasta1\logobanco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />

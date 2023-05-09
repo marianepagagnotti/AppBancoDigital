@@ -1,8 +1,10 @@
-﻿using System;
+﻿using AppBancoDigital.Model;
+using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
+using Newtonsoft.Json;
 
 namespace AppBancoDigital.Service
 {
@@ -67,6 +69,22 @@ namespace AppBancoDigital.Service
             }
 
             return json_response;
+        }
+
+        public static async Task<object> Cadastrar(Correntista correntistaModel)
+        {
+            string json = JsonConvert.SerializeObject(correntistaModel);
+
+            string response = await PostDataToService(json, "/correntista/save");
+
+            var obj = JsonConvert.DeserializeObject(response);
+
+            Correntista correntista = obj as Correntista;
+
+            if (correntista != null)
+                return obj as Correntista;
+            else
+                throw new Exception("Algo está errado");
         }
 
         private static string DecodeServerError(System.Net.HttpStatusCode status_code)

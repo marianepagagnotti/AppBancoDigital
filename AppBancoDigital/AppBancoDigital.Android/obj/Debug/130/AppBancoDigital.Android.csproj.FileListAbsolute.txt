@@ -1266,3 +1266,4 @@ C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.An
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\bin\Debug\NovaPasta1\logobanco.png

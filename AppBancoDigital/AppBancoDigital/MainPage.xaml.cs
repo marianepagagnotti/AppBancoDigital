@@ -1,4 +1,6 @@
 ﻿using System;
+using AppBancoDigital.Model;
+using AppBancoDigital.Service;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -23,9 +25,18 @@ namespace AppBancoDigital
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new View.Cadastro());
+            try
+            {
+
+                await Navigation.PushAsync(new View.CadastroCorrentista());
+
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
     }
 }

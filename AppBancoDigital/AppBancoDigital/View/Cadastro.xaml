@@ -22,18 +22,18 @@
                                                       
                            HorizontalTextAlignment="Center" Margin="10,50,10,30"  />
 
-                    <Label Text="Nome:" TextColor="Black"/>
+                    <Label Text="Nome:" TextColor="#bb6f2c"/>
                     <Entry x:Name="txt_name"
                            TextColor="Black"
                             />
 
-                    <Label Text="CPF:" TextColor="Black"/>
+                    <Label Text="CPF:" TextColor="#bb6f2c"/>
                     <Entry x:Name="txt_cpf"
                            TextColor="Black"
                             />
 
                     <Label Text="Data de nascimento:"  
-                                       TextColor="Black"
+                                       TextColor="#bb6f2c"
                                        Margin="0,14,10,0"
                                        />
                     <DatePicker x:Name="dtpck_datanasc"
@@ -42,10 +42,10 @@
 
 
 
-                    <Label Text="Defina sua senha:" TextColor="Black"   />
+                    <Label Text="Defina sua senha:" TextColor="#bb6f2c"   />
                     <Entry x:Name="txt_senha"   TextColor="Black"    />
 
-                    <Label Text="Confirme sua senha:" TextColor="Black"   />
+                    <Label Text="Confirme sua senha:" TextColor="#bb6f2c"   />
                     <Entry x:Name="txt_senhaconfirm"   TextColor="Black"    />
 
                     <Button Text="Cadastrar" 

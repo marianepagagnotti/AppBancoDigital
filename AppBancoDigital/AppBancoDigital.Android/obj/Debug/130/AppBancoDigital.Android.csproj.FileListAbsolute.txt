@@ -1268,3 +1268,5 @@ C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.An
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\bin\Debug\NovaPasta1\logobanco.png
 C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\bin\Debug\NovaPasta1\logobanco.png
+C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\bin\Debug\NovaPasta1\legaldemais.png
+C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital.Android\bin\Debug\NovaPasta1\muitolegal2.png

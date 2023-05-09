@@ -17,18 +17,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="NovaPasta1\legaldemais.png" />
     <None Remove="NovaPasta1\logo %282%29.png" />
     <None Remove="NovaPasta1\logo-removebg-preview.png" />
     <None Remove="NovaPasta1\logo.PNG" />
     <None Remove="NovaPasta1\logobanco.png" />
     <None Remove="NovaPasta1\muitolegal.png" />
+    <None Remove="NovaPasta1\muitolegal2.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="NovaPasta1\legaldemais.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="NovaPasta1\logobanco.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="NovaPasta1\muitolegal.png">
+    <EmbeddedResource Include="NovaPasta1\muitolegal2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

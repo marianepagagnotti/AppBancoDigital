@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppBancoDigital.View.Cadastro">
+             x:Class="AppBancoDigital.View.Cadastro" BackgroundColor="#fbf6f6">
     <ContentPage.Content>
         <StackLayout>
             
@@ -51,20 +51,22 @@
                     <Button Text="Cadastrar" 
                             TextColor="#bb6f2c"
                             BackgroundColor="Transparent"
-                            FontAttributes="Bold"
+                            FontAttributes="None"
                             WidthRequest="300"
                             Clicked="Button_Clicked" 
                             BorderColor="White"
+                            CornerRadius="40"
                             BorderWidth="3" 
                             Margin="10,30,20,8"/>
 
                     <Button Text="Voltar" 
                             TextColor="#bb6f2c"
                             BackgroundColor="Transparent"
-                            FontAttributes="Bold"
+                            FontAttributes="None"
                             WidthRequest="300"
                             Clicked="Button_Clicked_1" 
                             BorderColor="White"
+                            CornerRadius="40"
                             BorderWidth="3" 
                             Margin="10,-10,20,10"/>
                 </StackLayout>

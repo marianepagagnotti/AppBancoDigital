@@ -17,7 +17,7 @@ namespace AppBancoDigital
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
 
-            //logo.Source = ImageSource.FromResource("AppBancoDigital.NovaPasta1.logobanco.png");
+            logo.Source = ImageSource.FromResource("AppBancoDigital.NovaPasta1.muitolegal.png");
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace AppBancoDigital
             try
             {
 
-                await Navigation.PushAsync(new View.CadastroCorrentista());
+                await Navigation.PushAsync(new View.Cadastro());
 
             }
             catch (Exception ex)

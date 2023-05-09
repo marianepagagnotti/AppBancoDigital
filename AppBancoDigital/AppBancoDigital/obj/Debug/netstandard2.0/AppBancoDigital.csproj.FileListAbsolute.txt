@@ -33,3 +33,5 @@ C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\ob
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\obj\Debug\netstandard2.0\AppBancoDigital.pdb
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\obj\Debug\netstandard2.0\ref\AppBancoDigital.dll
 C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\logobanco.png
+C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\logobanco.png
+C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\muitolegal.png

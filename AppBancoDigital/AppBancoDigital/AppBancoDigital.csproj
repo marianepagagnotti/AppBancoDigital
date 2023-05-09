@@ -21,10 +21,14 @@
     <None Remove="NovaPasta1\logo-removebg-preview.png" />
     <None Remove="NovaPasta1\logo.PNG" />
     <None Remove="NovaPasta1\logobanco.png" />
+    <None Remove="NovaPasta1\muitolegal.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="NovaPasta1\logobanco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaPasta1\muitolegal.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

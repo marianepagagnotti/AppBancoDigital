@@ -1,39 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppBancoDigital.MainPage">
+             x:Class="AppBancoDigital.MainPage" BackgroundColor="#fbf6f6" >
 
     <ContentPage.Content>
         <StackLayout>
 
+            <Image x:Name="logo" HeightRequest="400" WidthRequest="100" Margin="30,0,0,0" />
             
-            <Label Text="BANCO DIGITAL" 
-                   FontSize="50"
-                   TextColor="#bb6f2c"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
-                   FontAttributes="Bold"
-                   Margin="0,90,0,0"/>
 
             <Button Text="Entrar"  
                     WidthRequest="300"
                     HorizontalOptions="Center"
-                    FontSize="18"
-                    FontAttributes="Bold"
+                    FontSize="17"
+                    FontAttributes="None"
                     BackgroundColor="Transparent" 
-                    BorderColor="White"
+                    BorderColor="white"
                     BorderWidth="3"
+                    CornerRadius="40"
                     TextColor="#bb6f2c"
                     Clicked="Button_Clicked"    
-                    Margin="0,200,0,0"/>
+                    Margin="0,30,0,0"/>
 
             <Button Text="Cadastrar" 
-                    BorderColor="White" 
+                    BorderColor="white" 
                     BorderWidth="3" 
                     WidthRequest="300"
                     HorizontalOptions="Center"
-                    FontSize="18"
-                    FontAttributes="Bold"
+                    FontSize="16"
+                    CornerRadius="40"
+                    FontAttributes="None"
                     BackgroundColor="Transparent" 
                     TextColor="#bb6f2c"
                     Clicked="Button_Clicked_1"

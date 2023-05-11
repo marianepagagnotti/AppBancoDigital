@@ -36,3 +36,5 @@ C:\Users\Usuario\Source\Repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\bi
 C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\logobanco.png
 C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\legaldemais.png
 C:\Users\Usuario\Desktop\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\muitolegal2.png
+C:\Users\Usuario\source\repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\legaldemais.png
+C:\Users\Usuario\source\repos\AppBancoDigital\AppBancoDigital\AppBancoDigital\bin\Debug\netstandard2.0\NovaPasta1\muitolegal2.png

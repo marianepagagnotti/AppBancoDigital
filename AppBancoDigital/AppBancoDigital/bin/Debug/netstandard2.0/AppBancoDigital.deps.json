@@ -12,7 +12,8 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.BehaviorValidationPack": "1.1.1"
         },
         "runtime": {
           "AppBancoDigital.dll": {}
@@ -66,6 +67,17 @@
             "fileVersion": "5.0.0.786"
           }
         }
+      },
+      "Xamarin.Forms.BehaviorValidationPack/1.1.1": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.BehaviorValidationPack.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
       }
     }
   },
@@ -116,6 +128,13 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    },
+    "Xamarin.Forms.BehaviorValidationPack/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MpTTek+d3NfkaGJNAU0xj+MjuPMlBAUcNJWKqR3q7oZztJJoMb91AHY7yE3GoBlI4IzSDwhq4qxIaQzMdTCPTA==",
+      "path": "xamarin.forms.behaviorvalidationpack/1.1.1",
+      "hashPath": "xamarin.forms.behaviorvalidationpack.1.1.1.nupkg.sha512"
     }
   }
 }

@@ -29,6 +29,10 @@ namespace AppBancoDigital.Service
             {
                 HttpResponseMessage response = await client.GetAsync(uri);
 
+                Console.WriteLine("-------------------------------");
+                Console.WriteLine(response.Content.ReadAsStringAsync().Result);
+                Console.WriteLine("-------------------------------");
+
                 if (response.IsSuccessStatusCode)
                 {
                     json_response = response.Content.ReadAsStringAsync().Result;
@@ -40,8 +44,6 @@ namespace AppBancoDigital.Service
             return json_response;
         }
 
-
-       
         protected static async Task<string> PostDataToService(string json_object, string rota)
         {
             string json_response;
@@ -60,31 +62,21 @@ namespace AppBancoDigital.Service
                     new StringContent(json_object, Encoding.UTF8, "application/json")
                 );
 
+                Console.WriteLine(response.Content.ReadAsStringAsync().Result);
+
                 if (response.IsSuccessStatusCode)
                 {
                     json_response = response.Content.ReadAsStringAsync().Result;
                 }
                 else
+                {
+
+
                     throw new Exception(DecodeServerError(response.StatusCode));
+                }
             }
 
             return json_response;
-        }
-
-        public static async Task<object> Cadastrar(Correntista correntistaModel)
-        {
-            string json = JsonConvert.SerializeObject(correntistaModel);
-
-            string response = await PostDataToService(json, "/correntista/save");
-
-            var obj = JsonConvert.DeserializeObject(response);
-
-            Correntista correntista = obj as Correntista;
-
-            if (correntista != null)
-                return obj as Correntista;
-            else
-                throw new Exception("Algo está errado");
         }
 
         private static string DecodeServerError(System.Net.HttpStatusCode status_code)

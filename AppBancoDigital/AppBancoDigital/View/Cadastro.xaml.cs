@@ -24,6 +24,11 @@ namespace AppBancoDigital.View
         {
             try
             {
+
+                carregando.IsRunning = true;
+                carregando.IsVisible = true;
+
+
                 if (txt_name.Text == null | txt_senha.Text == null | txt_cpf.Text == null | txt_senhaconfirm.Text == null)
                 {
                     await DisplayAlert("Ops!", "Você provavelmente deixou algo em branco.", "OK");
@@ -48,7 +53,7 @@ namespace AppBancoDigital.View
 
 
                         await DisplayAlert("Sucesso!", "Você foi cadastrado.", "OK");
-                        await Navigation.PushAsync(new View.Login());
+                        await Navigation.PushAsync(new MainPage());
 
                     }
                 }
@@ -58,16 +63,20 @@ namespace AppBancoDigital.View
                 await DisplayAlert("Ops", ex.Message, "OK");
 
             }
+            finally
+            {
+                carregando.IsRunning = false;
+                carregando.IsVisible = false;
+            }
         }
 
-        private void dtpck_datanasc_DateSelected(object sender, DateChangedEventArgs e)
-        {
-
-        }
+        
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
         }
     }
-}
+
+      
+    }
